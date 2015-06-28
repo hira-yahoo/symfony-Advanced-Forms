@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'sqlite:C:\work\develop\working_copies\symfony_test2\data/database.db'
+      username: root
+      password: null
